@@ -1,0 +1,115 @@
+** Example Run 0 **
+Input 0:
+3
+3
+4
+
+Output 0:
+   o
+  ooo
+  ooo
+xxxoo
+xxx o
+xxx o
+xxx o
+
+
+** Example Run 1 **
+Input 1:
+4
+3
+3
+
+Output 1:
+   o
+  ooo
+  ooo
+  ooo
+  ooo
+  o o
+xxx o
+xxx o
+xxx o
+
+
+** Example Run 2 **
+Input 2:
+6
+4
+5
+
+Output 2:
+   o
+  ooo
+  ooo
+  ooo
+  ooo
+  ooo
+  ooo
+  o o
+xxxxo
+xxxxo
+xxxxo
+xxxxo
+xxxxo
+
+
+** Example Run 3 **
+Input 3:
+5
+2
+7
+
+Output 3:
+   o
+  ooo
+  ooo
+  ooo
+xxooo
+xxooo
+xxo o
+xxo o
+xxo o
+xxo o
+xxo o
+
+
+** Example Run 4 **
+Input 4:
+5
+3
+9
+
+Output 4:
+   o
+  ooo
+xxxoo
+xxxoo
+xxxoo
+xxxoo
+xxx o
+xxx o
+xxx o
+xxx o
+xxx o
+
+
+** Example Run 5 **
+Input 5:
+5
+3
+11
+
+Output 5:
+xxxo
+xxxoo
+xxxoo
+xxxoo
+xxxoo
+xxxoo
+xxx o
+xxx o
+xxx o
+xxx o
+xxx o
+
