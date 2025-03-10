@@ -1,0 +1,34 @@
+# an easier way of solving the same problem
+
+size = int(input())
+box_width = int(input())
+box_height = int(input())
+
+head = "   o "
+body = "  ooo"
+legs = "  o o"
+box = "x"
+
+# DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+
+# create a 2D matrix to represent the image constituted by strings
+
+matrix =  [legs for k in range(size)]
+matrix += [body for j in range(size)]
+matrix += [head for i in range(1)]
+
+for i in range(box_height):
+    row = matrix[i]
+    box_str = ""
+    for j in range(box_width):
+        box_str+=box
+    row = box_str + row[box_width:]
+    matrix[i] = row
+
+def print_matrix(lst):
+    for i in range(len(lst)):
+        print(lst[-i-1])
+    
+print_matrix(matrix)
+
+# DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
